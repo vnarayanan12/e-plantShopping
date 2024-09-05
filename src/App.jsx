@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import ProductList from './ProductList';
 import './App.css';
@@ -7,7 +6,7 @@ import AboutUs from './AboutUs';
 function App() {
   
   const [showProductList, setShowProductList] = useState(false);
-
+  
   const handleGetStartedClick = () => {
     setShowProductList(true);
   };
@@ -40,6 +39,10 @@ function App() {
 }
 
 export default App;
+
+
+
+
 
 
 
